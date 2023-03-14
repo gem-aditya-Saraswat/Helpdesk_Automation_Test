@@ -1,0 +1,11 @@
+{
+  "environment": "dev",
+  "projectName": "Helpdesk Automation",
+  "reportName": "Helpdesk Automation Report",
+  "gemjarSubID": "test_id",
+  "dev": {
+    "browserName": "chrome",
+    "launchUrl": "https://helpdeskui-np.geminisolutions.com/",
+    "browserTimeout": 100
+  }
+}
