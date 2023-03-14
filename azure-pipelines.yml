@@ -14,7 +14,7 @@ steps:
   inputs:
     versionSpec: '18' # set the version of JDK to install
     jdkArchitectureOption: 'x64' # set the architecture of the JDK to install
-    jdkSourceOption: 'PreInstalled' # set to pre-installed JDK
+    jdkSourceOption: 'AzureStorage' 
     cleanDestinationDirectory: true
 - task: Maven@3
   inputs:
